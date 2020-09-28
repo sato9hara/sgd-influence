@@ -61,7 +61,7 @@ python eval_outlier.py [target] [start_epoch] [start_seed] [end_seed] [gpu_index
 ```
 
 where `start_epoch` is the step we start the retarining.
-For "Retrain Last", set `start_epoch` to 19, and for "Retarin All" set `start_epoch` to 20.
+For "Retrain Last", set `start_epoch` to 19, and for "Retarin All" set `start_epoch` to 0.
 To retrain the models for the proposed method with "Retrain Last", run
 
 ```
